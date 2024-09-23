@@ -14,7 +14,7 @@
 - Queries across frameworks should look very much the same.
 - Implementations should be idiomatic.
 - We present the most common of the framework, not neccessarily the most super tiptop efficient one.
-- We could have language experts looking at our code and/or stack overflow review.
+- We could have language experts looking at our code and/or stack overflow review.ss
 - - Refine services with experts!
 
 4. #### Should we have a management folder structure including the tests that we will run against the services?
@@ -24,11 +24,7 @@
 - Each client should run the minitwit_scenario.py
 - First thing controller does should be:
 - i. clear db
-- ii. start scenarios
-
-### Problem statement feedback
-- Change sentence with "...standardized...".
-- Include something about our methodoly being empirical lab experiment in a controlled environment.
+- ii. start scenariossslled environment.
 
 
 ### Misc and small talk
