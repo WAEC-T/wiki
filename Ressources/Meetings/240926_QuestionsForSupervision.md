@@ -5,7 +5,7 @@
 **Qustions: Deployment**
 1. Is it possible to have a test environment where we can deploy and then refactor the repositories in parallel?
 2. What is the status of the Raspberry Pi setup? Can we rent from Dasya?
-3. Should we spin up Docker containers for each framework? Then we can just grab the image, run `docker-compose up' and that's it.
+3. Should we spin up Docker containers for each framework? Then we can just grab the image, run `docker-compose up' and that's it? (Usage of docker containers in general)
 
 
 **Questions: Refactoring**
