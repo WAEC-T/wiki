@@ -3,8 +3,8 @@
 ### Questions
 
 **Qustions: Deployment**
-1. Can we have a test environment where we can deploy? And then do agile deployment as we go and refine the repositories.
-2. Raspberry Pi setup - what is the status? Can we rent from Dasya?
+1. Is it possible to have a test environment where we can deploy and then refactor the repositories in parallel?
+2. What is the status of the Raspberry Pi setup? Can we rent from Dasya?
 3. Should we spin up Docker containers for each framework? Then we can just grab the image, run `docker-compose up' and that's it.
 
 
