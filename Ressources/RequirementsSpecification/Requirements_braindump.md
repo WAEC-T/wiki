@@ -1,4 +1,4 @@
-### REQUIREMENTS SPECIFICATION
+# REQUIREMENTS SPECIFICATION
 
 ## GENERAL SCHEMA REQUIREMENTS
 1. All applications need to adhere to the table names within the schema
