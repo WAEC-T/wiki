@@ -13,6 +13,7 @@
    * `/msg/<username> [GET]&[POST]`
    * `/fllws/<username> [GET]&[POST]`
    * `/latest [GET]`
+- [ ] msg renders limit 100 messages
 
 ### 3. Ports 
 - [ ] Use port 5000:5000 for _both_ the web application and the API service.
