@@ -29,3 +29,18 @@
 
 ### 5. Limits 
 - [ ] 100 as limit for get request api
+
+
+### 6. Dockerfile
+* Alpine edge - freeze this
+* expose 5000
+* servicename:`language-framework-bittrace`
+* only copy the binary when possible
+
+
+### 7. Packaging all on the latest version
+
+
+### 8. (Frontend: Flash messages)
+  * 
+
