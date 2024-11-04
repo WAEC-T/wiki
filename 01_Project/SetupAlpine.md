@@ -14,7 +14,9 @@
 8. Make sure it return an IP-address
 9. Continue setup-alpine until the end
 10. Configure the mirror for alpine by executing: vi /etc/apk/repositories
-11. Add a line with your mirror: https://dl-cdn.alpinelinux.org/alpine/latest-stable/main
+11. Add a line with your mirror: 
+    * https://eu.edge.kernel.org/alpine/edge/main
+    * https://eu.edge.kernel.org/alpine/edge/community
 12. Run apk-update and Run apk-upgrade
 13. Try curl something and see if it works
 14. If it still does not work, run ip link
@@ -27,12 +29,16 @@ update_config=1
 country=DK
 ... and your network credentials to network: {ssid: ... psk: ...}`
     
-20. Lastly, run ip link set wlan0 up if it is still down
-21. Run wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant-conf
-22. As a bonus, run setup-interface to scan for networks again
-23. Also, add udhcpc -i wlan0
-24. Try ip route again
-25. apk upgrade and apk update
-26. what if is fails here ? :(
-27. Then you check the step 10 again
-28. BAM!
+1.  Lastly, run ip link set wlan0 up if it is still down
+2.  Run wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant-conf
+3.  As a bonus, run setup-interface to scan for networks again
+4.  Also, add udhcpc -i wlan0
+5.  Try ip route again
+6.  apk upgrade and apk update
+7.  what if is fails here ? :(
+8.  Then you check the step 10 again
+9.  BAM!
+
+
+* Command finding the quickest mirror:
+`setup-apkrepos -cf`
