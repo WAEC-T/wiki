@@ -139,3 +139,15 @@ Loopback Image: A loopback image (persist.img) is created in the second partitio
 Mounting and Persistence: The loopback image is mounted at /media/overlay, and changes are configured to be saved persistently.
 
 
+
+
+
+* After make sure that the mirrors are set 
+* run `apk update`
+* run `apk upgrade`
+  
+Installed docker
+* run `apk add docker`
+* 
+
+
