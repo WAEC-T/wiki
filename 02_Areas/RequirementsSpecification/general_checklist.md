@@ -41,6 +41,9 @@
 ### 7. Packaging all on the latest version
 
 
-### 8. (Frontend: Flash messages)
+### 8. Frontend
+
+- Time display: Y-m-d @ H:M
+- Flash messages
   * 
 
