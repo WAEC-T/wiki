@@ -7,22 +7,24 @@
 2. Research Background
     - General Overview Related to Our Setup
     - Programming Languages
-        - Compiled vs. Interpreted
+        - Compiled vs. Interpreted - what is really the difference - static and dynimically typed
+        - intermediate languages
+        - How languages and framworks impact multicore cpu
     - Frameworks
     - Docker
-    - Raspberry Pi / IoT
+    - Raspberry Pi/IoT
 3. Methodology
-    - Epistemological Considerations - Gustav
+    - (Epistemological Considerations - Gustav)
     - Architecture
         - Versions of Raspberry Pi and Architecture
     - Refactoring
-        - Requirements
+        - Requirements (Appendix)
         - Service Table - Language, Framework
         - Explanation of Language, Framework, and Packages
-        - (Expert Interviews)
     - Provisioning
+        - throttling
     - Docker
-        - Workflow and Pipeline
+        - Workflow and Pipeline 
     - Scenarios
         - Helge's Scenarios
         - Endpoints Sequential
@@ -30,6 +32,7 @@
 4. Results
     - Data
 5. Analysis and Discussion
+    - Why did we choose Pi's and not local machine (connection channels)
     - Comparing Languages and Frameworks
 6. Future Work
     - Real-World Scenario
